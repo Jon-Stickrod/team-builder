@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -27,7 +28,55 @@
 .App-link {
   color: #61dafb;
 }
-
+html {
+  background-color: #af8baf;
+}
+.form{
+  display: flex;
+  margin: 0% auto;
+  justify-content: center;
+  
+}
+.formEl{
+  display: flex;
+  margin: 0% auto;
+  align-items: center;
+  flex-direction: column;
+  background-color: #584153;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #f6acc8;
+}
+.memberCard{
+  display: flex;
+  margin: 0% auto;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  
+  background-color: #f6acc8;
+  color: #26191b;
+  border-radius: 10px;
+}
+.inputBox{
+  padding: 2px;
+  background-color: #af8baf;
+  border: 2px solid #26191b;
+}
+.subBut{
+  margin-top: 15px;
+  width: 50%;
+  background-color: #af8baf;
+  border: 2px solid #8f718f;
+  padding: 5px;
+  border-radius: 6px;
+}
+.subBut:hover{
+  background-color: #8f718f;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

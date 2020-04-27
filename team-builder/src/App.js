@@ -14,7 +14,11 @@ function App() {
   return (
     <div>
       <Form addMember={addMember}/>
-      <Members members={members}/> 
+      <section className="memberCard">
+        <h1>Your Team:</h1>
+        <Members members={members}/> 
+      </section>
+      
     </div>
   );
 }

@@ -17,11 +17,14 @@ const Form = (props) => {
     }
 
     return (
-        <div>
-            <form onSubmit={submitForm}>
-                <label htmlFor="member">team member</label>
-                <input type="text" placeholder="add team member" id="member" value={name} name="member" onChange={changeHandler}/>
-                <button type="submit">add member</button>
+        <div className="form">
+            <form onSubmit={submitForm} className="formEl">
+                <section>
+                    <label htmlFor="member">team member: </label>
+                    <input className="inputBox" type="text" placeholder="member name here" id="member" value={name} name="member" onChange={changeHandler}/>
+                </section>
+                
+                <button className="subBut" type="submit">add member</button>
              </form>
         </div>
     );
